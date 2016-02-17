@@ -1,0 +1,72 @@
+body{
+	margin:0;
+	font-family:'微软雅黑';
+	min-width:980px;
+}
+h1,h2,h3,h4,h5,h6,ul,li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.kuang{
+	width:700px;
+	height:700px;
+	border:1px solid black;
+	margin:20px auto;
+	background:url(wuziqibj.jpg) no-repeat;
+}
+
+
+/* 五子棋--------------------------------------------------------*/
+.dui{
+	width: 350px;
+	height: 350px;
+	border:1px solid black;
+	margin:50px auto;
+}
+.ying1{
+	width:100px;
+	height:100px;
+	float:left;
+	border:1px solid black;
+	margin:6px;
+	background: green;
+}
+.ying2{
+	width:100px;
+	height:100px;
+	float:left;
+	border:1px solid black;
+	margin:6px;
+	background: red;
+}
+
+.qipan{
+	width:601px;
+	height:601px;
+	background: #fde3a8;
+	margin:50px auto;
+}
+.qizi{
+	margin-top:1px;
+	margin-left:1px;
+	float:left;
+	border-radius:50%;
+}
+.hangxian{
+	width: 601px;
+	height: 1px;
+	background: #000;
+	float: left;
+	position: absolute;
+}
+.shuxian{
+	width: 1px;
+	height: 601px;
+	background: #000;
+	float: left;
+	position: absolute;
+}
+/* 五子棋结束-----------------------------------------------------*/
+

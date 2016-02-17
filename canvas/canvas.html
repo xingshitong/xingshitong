@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css3选择器</title>
+    <script src="../js/jQuery.js"></script>
+    <style>
+        canvas{
+            background:orange;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            var canvas = document.getElementsByTagName('canvas')[0];
+            var button = document.getElementsByTagName('button')[0];
+            var canva = canvas.getContext('2d');
+
+//            var color = canva.createRadialGradient(150,150,0,50,200,200);
+//            color.addColorStop(0,'#000');
+//            color.addColorStop(1,'#ccc');
+//            canva.fillStyle=color;
+
+//            var color = canva.createLinearGradient(150,150,0,50);
+//            color.addColorStop(0,'red');
+//            color.addColorStop(1,'blue');
+//            canva.fillStyle=color;
+
+//            var img = document.getElementsByTagName('img')[0];
+//            console.log(img);
+//            var imgcan = canva.createPattern(img,'repeat');
+//            canva.fillStyle=imgcan;
+
+//            canva.fillStyle='red';
+//            canva.strokeStyle='blue';
+//            canva.lineWidth=3;
+//            canva.shadowColor='green';
+//            canva.shadowBlur=20;
+//            canva.shadowOffsetX=10;
+//            canva.shadowOffsetY=10;
+//            canva.fillRect(0,0,100,100);
+//            canva.fillRect(100,100,100,100);
+
+//
+//            var arr=[];
+//            canvas.onmousedown = function(e){
+//                var px = e.offsetX;
+//                var py = e.offsetY;
+//                console.log(px,py);
+//                canvas.onmousemove=function(e){
+//                    canva.clearRect(0,0,1000,800);
+//                    if(arr.length){
+//                        canva.putImageData(arr[arr.length-1],0,0);
+//                    }
+//                    var cx = e.offsetX;
+//                    var cy = e.offsetY;
+//                    console.log(cx,cy);
+//                    canva.beginPath();
+//                    canva.moveTo(px,py);
+//                    canva.lineTo(cx,cy);
+//                    canva.stroke();
+//                    canva.closePath();
+//                };
+//                canvas.onmouseup=function(e){
+//                    arr.push(canva.getImageData(0,0,canvas.width,canvas.height));
+//                    canvas.onmousemove = null;
+//                    canvas.onmouseup = null;
+//                }
+//            };
+//            button.onclick = function(){
+//                arr.pop();
+//                canva.putImageData(arr[arr.length-1],0,0);
+//            };
+//
+
+//            canvas.onmousedown = function(e){
+//                var px = e.offsetX;
+//                var py = e.offsetY;
+//                console.log(px,py);
+//                canva.beginPath();
+//                canva.moveTo(px,py);
+//                canvas.onmousemove=function(e){
+//                    var cx = e.offsetX;
+//                    var cy = e.offsetY;
+//                    console.log(cx,cy);
+//                    canva.lineTo(cx,cy);
+//                    canva.stroke();
+//                };
+//                canvas.onmouseup=function(e){
+//                    canva.closePath();
+//                    canvas.onmousemove = null;
+//                    canvas.onmouseup = null;
+//                }
+//            }
+        }
+    </script>
+</head>
+<body>
+<canvas width="1000" height="800">
+</canvas>
+<img src="../images/aaa.jpg">
+<button>后退</button>
+
+</body>
+</html>

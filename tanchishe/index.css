@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	font-family: "微软雅黑";
+	min-width: 980px;
+	/*background:url(tanchishe.jpg) no-repeat;*/
+}
+h1,h2,h3,h4,h5,h6,ul,li{
+	margin: 0;
+	padding: 0;
+	/*使用ul和li时去掉小圆点*/
+	list-style:none;
+}
+.changjing{
+	box-shadow:0 0 10px black inset;
+	width:800px;
+	height:800px;
+	background-color: black;
+	margin: 0 auto;
+	border:1px solid black;
+	background-image:url(./img/t0123ae6ee3b732758d.jpg);
+}
+.block{
+	background-color:white;
+	width:79px;
+	height: 79px;
+	margin:0 1px 1px 0;
+	float:left;
+	opacity:0.8;
+}

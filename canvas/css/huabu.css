@@ -1,0 +1,88 @@
+body,ul,li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    background:url(../huabu.jpg) no-repeat;
+}
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+.dao{
+    height:30px;
+    background: #aaa;
+}
+.hang{
+    width:10%;
+    height:100%;
+    border-right:1px solid black;
+    text-align:center;
+    line-height:30px;
+    float:left;
+}
+.hang ul{
+    display:none;
+    position:relative;
+    z-index:999;
+    color:#000;
+    background:#ccc;
+}
+.gong{
+    margin-top:30px;
+    width:50px;
+    height:600px;
+    background:#ccc;
+}
+.ju{
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    position:relative;
+}
+.ju ul{
+    width:600%;
+    height:100%;
+    position:absolute;
+    left:45px;
+    top:0;
+    z-index:10;
+    display:none;
+}
+.ju li{
+    float:left;
+    margin:0 10px;
+}
+.box{
+    width:800px;
+    height:600px;
+    position:fixed;
+    left:350px;
+    top:30px;
+}
+.copy{
+    width:800px;
+    height:600px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:1;
+}
+canvas{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+.xp{
+    width:10px;
+    height:10px;
+    border:1px solid black;
+    position:absolute;
+    display:none;
+}
+.zou{
+    border:1px dotted black;
+    position:absolute;
+    display:none;
+}
